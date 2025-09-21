@@ -10,8 +10,8 @@ fun main() {
     println()
 
     //Задача 2
-    val likes = 161
-    val people: String = if (likes % 10 == 1 && likes != 11) "человеку" else "людям"
+    val likes = 211
+    val people: String = if (likes % 10 == 1 && likes % 100 != 11) "человеку" else "людям"
 
     println("Понравилось $likes $people")
     println()
